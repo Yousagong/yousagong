@@ -1,14 +1,14 @@
 import * as React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import "./SignUpButton.css";
+import "./WriteUpButton.css";
 
-export default function SignUpButton() {
+export default function WriteUpButton() {
   return (
-    <div className="SignUpButton">
+    <div className="WriteUpButton">
       <Stack spacing={2} direction="row">
-        <Button variant="contained" className="sign-up-button">
-          회원가입
+        <Button variant="contained" className="write-up-button">
+          글쓰기
         </Button>
       </Stack>
     </div>

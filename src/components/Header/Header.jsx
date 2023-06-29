@@ -2,7 +2,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import "../Button/LoginButton.css";
 import LoginButton from "../Button/LoginButton";
-import SignUpButton from "../Button/SignUpButton";
+import WriteUpButton from "../Button/WriteUpButton";
 import { db, authService } from "../../firebase";
 import {
   collection,
@@ -13,9 +13,11 @@ import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Button, Stack } from "@mui/material";
+import Registration from "../Registration/Registration";
 
 export default function Header() {
   const [user, setUser] = useState(null);
+  const [login, setLogin] = useState(null);
 
   const handleGoogleLogin = () => {
     const provider = new GoogleAuthProvider();
@@ -48,7 +50,7 @@ export default function Header() {
       <li className="menu-list">
         <Link to="/education">
           <ul className="category-list">
-            <h4>교육</h4>
+            <h4>학습</h4>
           </ul>
         </Link>
         <Link to="/cook">
@@ -61,12 +63,13 @@ export default function Header() {
             <h4>디자인</h4>
           </ul>
         </Link>
-        <Link to="/">
+        <Link to="/community">
           <ul className="category-list">
             <h4>커뮤니티</h4>
           </ul>
         </Link>
       </li>
+      <WriteUpButton />
       {user ? (
         <div className="LoginButton" onClick={handleLogout}>
           <Stack spacing={2} direction="row">
@@ -78,7 +81,11 @@ export default function Header() {
       ) : (
         <div className="LoginButton" onClick={handleGoogleLogin}>
           <Stack spacing={2} direction="row">
-            <Button variant="contained" className="login-button">
+            <Button
+              variant="contained"
+              className="login-button"
+              onClick={<Registration></Registration>}
+            >
               로그인
             </Button>
           </Stack>

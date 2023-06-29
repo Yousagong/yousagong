@@ -5,6 +5,7 @@ import EducationSection from "./components/Section/EducationSection/EducationSec
 import CookSection from "./components/Section/CookSection/CookSection";
 import Main from "./components/Main/Main";
 import DesignSection from "./components/Section/DesignSection/DesignSection";
+import CommunitySection from "./components/Section/CommunitySection/CommunitySection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/education" element={<EducationSection />}></Route>
           <Route path="/cook" element={<CookSection />}></Route>
           <Route path="/design" element={<DesignSection />}></Route>
+          <Route path="/community" element={<CommunitySection />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

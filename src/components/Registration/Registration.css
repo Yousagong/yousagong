@@ -1,0 +1,49 @@
+.WriteCode {
+  top: 64px;
+  position: relative;
+  width: 78vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.write-title h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hr {
+  width: 92%;
+  height: 2px;
+  margin: 16px 0;
+  background-color: #ccc;
+}
+
+.title-input {
+  width: 90%;
+  outline: none;
+}
+
+.content-input {
+  outline: none;
+  resize: none;
+  width: 90%;
+  border: none;
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+  height: 300px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background-color: #f2f3f6;
+}
+
+.button {
+  background-color: #f3863e;
+  border-radius: 6px;
+  width: 110px;
+  height: 42px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,49 @@
+.Community-title {
+  display: flex;
+  margin-left: 190px;
+  color: #557eff;
+}
+
+.line {
+  width: 75%;
+  margin-top: 0px;
+}
+
+.box1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.community-box1 {
+  width: 23%;
+  height: 270px;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 0px 20px;
+}
+
+.box1-title {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.ebs-logo {
+  width: 90px;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #557eff;
+}
+
+.CommunitySection-subtitle {
+  display: flex;
+  margin-left: 190px;
+  color: #557eff;
+}

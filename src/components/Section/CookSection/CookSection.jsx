@@ -17,65 +17,48 @@ export default function CookSection() {
             </div>
             <ul>
               <li className="box1-content">
-                <a href="https://www.ebs.co.kr/main?NaPm=ct%3Dhf2bview%7Cci%3D0Gy1001FZzHfpCO600-M%7Ctr%3Dsa%7Cet%3Dhf3rbd2w%7Cba%3D1%2E0%7Caa%3D1%2E0%7Chk%3Db03c9555b13a8cdb2e0c58e6759281a4efcd510d">
-                  EBS
-                </a>
-                : 교육 전문 공영방송.
+                <a href="http://www.82cook.com/">82cook</a> : 요리 레시피 공유
+                사이트.
               </li>
               <br />
               <li>
-                <a href="https://www.inflearn.com/">inflearn</a>: IT 전문 온라인
-                교육 플랫폼.
+                <a href="https://www.10000recipe.com/">만개의레시피</a> : 10만개
+                이상의 레시피.
               </li>
               <br />
-              <li>
-                <a href="https://www.inflearn.com/">inflearn</a>: IT 전문 온라인
-                교육 플랫폼.
-              </li>
-              <br />
-              <li>
-                <a href="https://www.inflearn.com/">inflearn</a>: IT 전문 온라인
-                교육 플랫폼.
-              </li>
             </ul>
           </div>
           <div className="cook-box1">
             <div className="box1-title">
-              <h3>PPT 툴</h3>
+              <h3>요리 블로그</h3>
             </div>
             <ul>
               <li>
-                <a href="https://www.ebs.co.kr/main?NaPm=ct%3Dhf2bview%7Cci%3D0Gy1001FZzHfpCO600-M%7Ctr%3Dsa%7Cet%3Dhf3rbd2w%7Cba%3D1%2E0%7Caa%3D1%2E0%7Chk%3Db03c9555b13a8cdb2e0c58e6759281a4efcd510d">
-                  Canva
+                <a href="https://blog.naver.com/umyo2000">
+                  어묘의 맛있는 이야기
                 </a>
-                : 시각 콘텐츠를 만들기 위해 사용되는
-                <br /> 디자인 플랫폼.
+                : 이것저것 이국적인 것도 하는 요리 블로거
               </li>
-              <li>
-                <a href="https://www.ebs.co.kr/main?NaPm=ct%3Dhf2bview%7Cci%3D0Gy1001FZzHfpCO600-M%7Ctr%3Dsa%7Cet%3Dhf3rbd2w%7Cba%3D1%2E0%7Caa%3D1%2E0%7Chk%3Db03c9555b13a8cdb2e0c58e6759281a4efcd510d">
-                  미리캔버스
-                </a>
-                : 다양한 무료 템플릿을 사용할 수 <br></br>있는 서비스.
-              </li>
+              <br />
             </ul>
           </div>
           <div className="cook-box1">
             <div className="box1-title">
-              <h3>아잉몰랑</h3>
+              <h3>요리 블로그</h3>
             </div>
             <ul>
               <li>
-                <a href="https://www.ebs.co.kr/main?NaPm=ct%3Dhf2bview%7Cci%3D0Gy1001FZzHfpCO600-M%7Ctr%3Dsa%7Cet%3Dhf3rbd2w%7Cba%3D1%2E0%7Caa%3D1%2E0%7Chk%3Db03c9555b13a8cdb2e0c58e6759281a4efcd510d">
-                  EBS
+                <a href="https://blog.naver.com/umyo2000">
+                  어묘의 맛있는 이야기
                 </a>
-                : 프레젠테이션, 포스터, 문서 및 기타 시각 콘텐츠를 만들기 위해
-                사용되는 디자인 플랫폼.
+                : 이것저것 이국적인 것도 하는 요리 블로거
               </li>
+              <br />
             </ul>
           </div>
         </div>
         <div className="CookSection-subtitle">
-          <h2>다른 카테고리</h2>
+          <h2>기타</h2>
         </div>
         <hr className="line"></hr>
       </div>
