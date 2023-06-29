@@ -81,11 +81,7 @@ export default function Header() {
       ) : (
         <div className="LoginButton" onClick={handleGoogleLogin}>
           <Stack spacing={2} direction="row">
-            <Button
-              variant="contained"
-              className="login-button"
-              onClick={<Registration></Registration>}
-            >
+            <Button variant="contained" className="login-button">
               로그인
             </Button>
           </Stack>
